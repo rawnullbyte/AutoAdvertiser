@@ -1,8 +1,8 @@
-package com.AndrexYT.AutoAdvertiser.addon.modules;
+package com.NullByte.AutoAdvertiser.addon.modules;
 
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.utils.player.InvUtils;
-import com.AndrexYT.AutoAdvertiser.addon.AddonTemplate;
+import com.NullByte.AutoAdvertiser.addon.AddonTemplate;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.renderer.ShapeMode;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -365,9 +365,9 @@ public class SignPlacer extends Module {
         for (BlockPos pos : signPositions) {
             Box marker = new Box(pos);
             marker.stretch(
-                scale.get() * marker.getLengthX(),
-                scale.get() * marker.getLengthY(),
-                scale.get() * marker.getLengthZ()
+                scale.get() * marker.getXLength(),
+                scale.get() * marker.getYLength(),
+                scale.get() * marker.getZLength()
             );
 
             // Render the marker based on the color setting

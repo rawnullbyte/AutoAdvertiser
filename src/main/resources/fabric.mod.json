@@ -5,16 +5,16 @@
   "name": "Auto Advertiser",
   "description": "Advertise your stuff on servers.",
   "authors": [
-    "AndrexYT"
+    "NullByte"
   ],
   "contact": {
-    "repo": "https://github.com/AndrexYT/AutoAdvertiser"
+    "repo": "https://github.com/rawnullbyte/AutoAdvertiser"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.AndrexYT.AutoAdvertiser.addon.AddonTemplate"
+      "com.NullByte.AutoAdvertiser.addon.AddonTemplate"
     ]
   },
   "mixins": [

@@ -1,7 +1,7 @@
-package com.AndrexYT.AutoAdvertiser.addon;
+package com.NullByte.AutoAdvertiser.addon;
 
-import com.AndrexYT.AutoAdvertiser.addon.commands.CommandExample;
-import com.AndrexYT.AutoAdvertiser.addon.modules.SignPlacer;
+import com.NullByte.AutoAdvertiser.addon.commands.CommandExample;
+import com.NullByte.AutoAdvertiser.addon.modules.SignPlacer;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
@@ -38,11 +38,11 @@ public class AddonTemplate extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.AndrexYT.AutoAdvertiser.addon";
+        return "com.NullByte.AutoAdvertiser.addon";
     }
 
     @Override
     public GithubRepo getRepo() {
-        return new GithubRepo("AndrexYT", "AutoAdvertiser");
+        return new GithubRepo("NullByte", "AutoAdvertiser");
     }
 }
